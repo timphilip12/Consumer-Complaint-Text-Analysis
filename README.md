@@ -11,7 +11,10 @@ The data used was from the excel file Consumer_Complaints.csv.
 ## Data cleaning
 To get rid of all the complaints that didn't have a narrative, I ran a filter to keep only the rows that have a narrative because I wanted to run my sentiment analysis on these narratives.
 ```
+consumer_complaints_narrative_filtered <- consumer_complaints %>%
+  filter(Consumer.complaint.narrative != "")
 ```
+
    
 
 
