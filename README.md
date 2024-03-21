@@ -7,6 +7,11 @@ The data used was from the excel file Consumer_Complaints.csv.
 1. Product: the type of product on which the complaint was addressed
 2. Consumer.complaint.narrative: an more detailed explaination on what the complaint was
 3. Consumer.ID: an unique ID for each complaint
+4. State: the state in which the customer is located
+## Data cleaning
+To get rid of all the complaints that didn't have a narrative, I ran a filter to keep only the rows that have a narrative because I wanted to run my sentiment analysis on these narratives.
+```
+```
    
 
 
