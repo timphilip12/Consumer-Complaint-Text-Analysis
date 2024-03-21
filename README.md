@@ -21,6 +21,12 @@ consumer_complaints_narrative_filtered <- consumer_complaints %>%
      mutate(row_number = row_number()) %>%
      unnest_tokens(word, Consumer.complaint.narrative)
    ```
+## Wordcloud
+As I wanted to have an idea of what words were appearing the most frequently, I created a wordcloud so I could visualize the most occuring words.
+
+## Sentiment Analysis
+### Bing analysis
+I first ran a bing analysis 
 
 
 
