@@ -46,7 +46,7 @@ Then, I ran a nrc analysis on the data using the same grouping (by product and b
 
 ### Total sentiment per State using nrc sentiment analysis
 
-<img src="Images/nrc sentiment per State.png" height = 300, width = 800>
+<img src="Images/nrc sentiment per state.png" height = 300, width = 800>
    
 
 
