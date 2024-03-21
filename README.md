@@ -27,20 +27,6 @@ As I wanted to have an idea of what words were appearing the most frequently, I 
 <img src="Images/Complaints cloud.png" height = 300, width = 400>
 
 ## Sentiment Analysis
-| No. | Type of Financial Service     | Number of Complaints |
-|-----|-------------------------------|----------------------|
-| 1   | Bank account or service       | 10,425               |
-| 2   | Consumer Loan                 | 6,394                |
-| 3   | Credit card                   | 13,582               |
-| 4   | Credit reporting              | 22,202               |
-| 5   | Debt collection               | 28,861               |
-| 6   | Money transfers               | 1,074                |
-| 7   | Mortgage                      | 24,641               |
-| 8   | Other financial service       | 176                  |
-| 9   | Payday loan                   | 1,245                |
-| 10  | Prepaid card                  | 1,144                |
-| 11  | Student loan                  | 4,948                |
-| 12  | Virtual currency              | 12                   |
 
 ### Bing analysis
 I first ran a bing analysis on the data after grouping them by product type and by state. 
@@ -64,7 +50,7 @@ Then, I ran a nrc analysis on the data using the same grouping (by product and b
 <img src="Images/nrc sentiment per state.png" height = 300, width = 800>
 
 ## Conclusion
-I can conclude that the sentiment analysis on the narrative of the consumer complaints is overall negative. For both, Bing and nrc, the result are way negative. Both of the shapes
+I can conclude that the sentiment analysis on the narrative of the consumer complaints is overall negative. For both, Bing and nrc, the result are way negative. The Bing and the nrc shapes look very similar with both sentiment per product and sentiment per state with way bigger values for the nrc. 
    
 
 
