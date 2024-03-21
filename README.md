@@ -17,9 +17,9 @@ consumer_complaints_narrative_filtered <- consumer_complaints %>%
 2. In order to run a sentiment analysis, I had to make the data tidy which means that each words from the narrative will be a row.
    ```
    tidy_consumer_complaints <- consumer_complaints_narrative_filtered %>%
-  select(Complaint.ID, Consumer.complaint.narrative, Product, State) %>%
-  mutate(row_number = row_number()) %>%
-  unnest_tokens(word, Consumer.complaint.narrative)
+    select(Complaint.ID, Consumer.complaint.narrative, Product, State) %>%
+    mutate(row_number = row_number()) %>%
+    unnest_tokens(word, Consumer.complaint.narrative)
    ```
 
 
