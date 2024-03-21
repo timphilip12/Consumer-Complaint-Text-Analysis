@@ -37,6 +37,16 @@ I first ran a bing analysis on the data after grouping them by product type and 
 
 <img src="Images/Bing sentiment per State.png" height = 300, width = 800>
 
+### nrc analysis 
+Then, I ran a nrc analysis on the data using the same grouping (by product and by state).
+
+### Total sentiment per product using nrc sentiment analysis
+
+<img src="Images/nrc sentiment per product.png" height = 300, width = 400>
+
+### Total sentiment per State using nrc sentiment analysis
+
+<img src="Images/nrc sentiment per State.png" height = 300, width = 800>
    
 
 
