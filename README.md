@@ -22,7 +22,8 @@ consumer_complaints_narrative_filtered <- consumer_complaints %>%
      unnest_tokens(word, Consumer.complaint.narrative)
    ```
 ## Wordcloud
-As I wanted to have an idea of what words were appearing the most frequently, I created a wordcloud so I could visualize the most occuring words.
+As I wanted to have an idea of what words were appearing the most frequently, I created a wordcloud so I could visualize the most occuring words. I filtered out the word "xxxx" as it was occuring too many times and it isn't an actual word.
+<img src="Images/Wordcloud.png" height = 250, width = 400>
 
 ## Sentiment Analysis
 ### Bing analysis
