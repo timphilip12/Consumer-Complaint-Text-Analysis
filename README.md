@@ -9,11 +9,20 @@ The data used was from the excel file Consumer_Complaints.csv.
 3. Consumer.ID: an unique ID for each complaint
 4. State: the state in which the customer is located
 ## Data cleaning
-To get rid of all the complaints that didn't have a narrative, I ran a filter to keep only the rows that have a narrative because I wanted to run my sentiment analysis on these narratives.
+1. To get rid of all the complaints that didn't have a narrative, I ran a filter to keep only the rows that have a narrative because I wanted to run my sentiment analysis on these narratives.
 ```
 consumer_complaints_narrative_filtered <- consumer_complaints %>%
   filter(Consumer.complaint.narrative != "")
 ```
+2. In order to run a sentiment analysis, I had to make the data tidy which means that each words from the narrative will be a row.
+   ```
+   tidy_consumer_complaints <- consumer_complaints_narrative_filtered %>%
+  select(Complaint.ID, Consumer.complaint.narrative, Product, State) %>%
+  mutate(row_number = row_number()) %>%
+  unnest_tokens(word, Consumer.complaint.narrative)
+   ```
+
+
 
    
 
