@@ -30,7 +30,7 @@ As I wanted to have an idea of what words were appearing the most frequently, I 
 ### Bing analysis
 I first ran a bing analysis on the data after grouping them by product type and by state. 
 
-<img src="Images/Bing sentiment per product.png" height = 250, width = 400>
+<img src="Images/Bing sentiment per product.png" height = 300, width = 400>
 
    
 
